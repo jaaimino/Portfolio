@@ -220,7 +220,7 @@ section.success a.active {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(24,188,156,.9);
+    background: rgba(144,195,212,.9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -256,6 +256,10 @@ section.success a.active {
 
 #about .list-group{
     color: #2c3e50;
+}
+
+#about #about-icons{
+    padding-top: 40px;
 }
 
 @media(min-width:767px) {
