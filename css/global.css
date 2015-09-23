@@ -1,0 +1,115 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 9, 2013, 6:45:00 PM
+    Author     : Jacob Aimino
+*/
+body{
+    font-size: 12pt;
+}
+
+#tagline{
+    color: white;
+    margin-bottom:21px;
+}
+
+#me{
+    background-color: #2c3e50;
+    padding: 1px;
+}
+
+#pic{
+    padding:5px;
+}
+
+.carousel-inner{
+    width:400px;
+    height:300px;
+}
+
+.row-info{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.project-update{
+
+}
+
+.img-center{
+    float:none;
+    margin: 0 auto;
+}
+
+footer {
+    color: #fff;
+}
+
+footer .footer-above {
+    background-color: #2c3e50;
+    padding:15px;
+}
+
+footer .footer-below {
+    padding: 25px 0;
+    background-color: #233140;
+}
+
+.btn-social {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active {
+    outline: 0;
+}
+
+.scroll-top {
+    z-index: 1049;
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    width: 50px;
+    height: 50px;
+}
+
+.scroll-top .btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.scroll-top .btn:focus {
+    outline: 0;
+}
+
+.btn-outline {
+    margin-top: 15px;
+    border: solid 2px #fff;
+    font-size: 20px;
+    color: #fff;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    border: solid 2px #fff;
+    color: #18bc9c;
+    background: #fff;
+}
