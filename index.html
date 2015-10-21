@@ -1,183 +1,81 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>Jacob Aimino - Home</title>
-        <meta charset = "utf-8">
-        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
-        <meta name = "description" content = "">
-        <meta name = "author" content = "">
-        <link rel = "shortcut icon" href = "/assets/ico/favicon.ico">
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <base href="/">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(client) app/vendor.css -->
+      <!-- bower:css -->
+      <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+      <link rel="stylesheet" href="bower_components/angular-chart.js/dist/angular-chart.css" />
+      <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css({.tmp,client}) app/app.css -->
+    <link rel="stylesheet" href="assets/css/flatly.min.css">
+    <link rel="stylesheet" href="app/app.css">
+      <!-- injector:css -->
+      <link rel="stylesheet" href="app/app.css">
+      <link rel="stylesheet" href="app/main/main.css">
+      <link rel="stylesheet" href="components/modal/modal.css">
+      <!-- endinjector -->
+    <!-- endbuild -->
+  </head>
+  <body ng-app="jaimino">
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
 
-        <!--Bootstrap core CSS -->
-        <link href = "css/bootstrap.min.css" rel = "stylesheet">
-        <link href = "css/bootstrap-flatly.css" rel = "stylesheet">
+    <!-- Add your site or application content here -->
+    <div ui-view=""></div>
 
-        <!--Font Awesome-->
-        <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-        <!--Global css template -->
-        <link href = "css/global.css" rel = "stylesheet">
+      ga('create', 'UA-XXXXX-X');
+      ga('send', 'pageview');
+    </script>
 
-        <!--HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-        <script src = "/bootstrap/assets/js/html5shiv.js"></script>
-        <script src="/bootstrap/assets/js/respond.min.js"></script>
-        <![endif]-->
-    </head>
-    <body>
-        <!--<div class="navbar navbar-default navbar-static-top"></div>-->
-        <div id="me">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-offset-1 col-md-10">
-                        <h1 id="tagline" class="text-center"><strong>Hi, I'm Jacob!</strong></h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div style="padding-top:50px;"></div>
-        <!-- Main Content Here -->
-        <div class="container">
+    <!--[if lt IE 9]>
+    <script src="bower_components/es5-shim/es5-shim.js"></script>
+    <script src="bower_components/json3/lib/json3.min.js"></script>
+    <![endif]-->
+    <!-- build:js({client,node_modules}) app/vendor.js -->
+      <!-- bower:js -->
+      <script src="bower_components/jquery/dist/jquery.js"></script>
+      <script src="bower_components/angular/angular.js"></script>
+      <script src="bower_components/angular-resource/angular-resource.js"></script>
+      <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+      <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+      <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+      <script src="bower_components/lodash/dist/lodash.compat.js"></script>
+      <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+      <script src="bower_components/Chart.js/Chart.js"></script>
+      <script src="bower_components/angular-chart.js/dist/angular-chart.js"></script>
+      <!-- endbower -->
+    <!-- endbuild -->
 
-            <div id="pic" class="row row-info">
-                <div class="col-md-offset-1 col-md-10">
-                    <img class="img img-responsive img-center img-circle" src="img/me_city.jpg" />
-                    <h5 class="text-center"><small><em>(Yep, that's me)</em></small></h5>
-                </div>
-            </div>
-
-            <div class="row row-info">
-                <div class="col-md-offset-1 col-md-10">
-                    <h3><b>About</b></h3>
-                    <p>
-                        I'm a <b>software engineer</b> going to the <em>University of Delaware</em>. I enjoy writing front-end code, and creating awesome user experiences.                   
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-offset-1 col-md-10">
-                    <h3><b>My Background</b></h3>
-                    <p>
-                        I have always been fascinated with technology. When I was younger I'd love to take things apart just to see what made them tick. 
-                        Growing up, my first job was in IT working for my high school, where I ran tech support and some basic server management. 
-                        From there, I knew I wanted to work in computer technology. 
-                    </p>
-                    <p>
-                        So far in my college career, I've worked on several projects with small teams, some of which you can view on my site under projects.
-                        I am a fast learner, with a passion for programming and problem solving. Twice, I've interned at JPMorgan as an application developer 
-                        in two different lines of business. I've since moved on to some contracted mobile app development on both mobile and web. This is where I can most likely see myself upon graduation.
-                    </p>
-                </div>
-            </div>
-            <div class="row row-info">
-                <div class="col-md-offset-1 col-md-10">
-                    <h3><b>Skills</b></h3>
-                    <p>
-                        <em>
-                        These are constantly changing and evolving. These represent current interests and most recent
-                        experiences of mine.
-                        </em>
-                    </p>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <dl>
-                                <dt><h4>Languages</h4></dt>
-                                <li>JavaScript/HTML/CSS</li>
-                                <li>Python</li>
-                                <li>Java</li>
-                                <li>C/C++</li>
-                            </dl>
-                        </div>
-                        <div class="col-md-4">
-                            <dl>
-                                <dt><h4>Frameworks</h4></dt>
-                                <li>AngularJS</li>
-                                <li>JQuery</li>
-                                <li>NodeJS</li>
-                            </dl>
-                        </div>
-                        <div class="col-md-4">
-                            <dl>
-                                <dt><h4>Software</h4></dt>
-                                <li>MongoDB</li>
-                            </dl>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row row-info">
-                <div class="col-md-offset-1 col-md-10">
-                    <h3><b>Projects</b></h3>
-                    <p>
-                        (List out some projects here)
-                    </p>
-                </div>
-            </div>
-            <div class="row row-info">
-                <div class="col-md-offset-1 col-md-10">
-                    <h3><b>Activities</b></h3>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <img class="img img-responsive" src="/img/lug_logo.png" />
-                        </div>
-                        <div class="col-md-6">
-                            <img class="img img-responsive" src="/img/acm_logo.png" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-offset-1 col-md-10">
-                    <div class="text-center">
-                        <a class="btn btn-primary" href="/JAA_Resume_2015.pdf" target="_blank">Download Resume</a>
-                    </div>
-                </div>
-            </div>
-        <div style="padding-top:50px;"></div>
-        </div>
-
-    <!-- Footer -->
-    <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-offset-2 col-md-8">
-                        <h3>Contact Me</h3>
-                        <ul class="list-inline">
-                            <!--
-                            <li>
-                                <a href="" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-                            </li> 
-                            -->
-                            <li>
-                                <a href="http://github.com/jaaimino" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
-                            </li>
-                            <li>
-                                <a href="mailto:jacobaimino@gmail.com" class="btn-social btn-outline"><i class="fa fa-envelope-o"></i></a>
-                            </li>
-                            <li>
-                                <a href="http://plus.google.com/+JacobAimino/" class="btn-social btn-outline"><i class="fa fa-google-plus"></i></a>
-                            </li>
-                            <li>
-                                <a href="http://www.linkedin.com/in/jaaimino" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        Copyright &copy; Jacob Aimino - 2015
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-    </body>
+        
+        <!-- build:js({.tmp,client}) app/app.js -->
+        
+        <script src="app/app.js"></script>
+          <!-- injector:js -->
+          <script src="app/main/main.controller.js"></script>
+          <script src="app/main/main.js"></script>
+          <script src="app/about/about.controller.js"></script>
+          <script src="app/about/about.js"></script>
+          <script src="components/navbar/navbar.controller.js"></script>
+          <!-- endinjector -->
+        <!-- endbuild -->
+</body>
 </html>
