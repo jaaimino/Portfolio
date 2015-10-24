@@ -15,6 +15,6 @@ angular.module('jaimino')
     $scope.isCollapsed = true;
 
     $scope.isActive = function(route) {
-      return route === $location.path();
+      return route === "#" + $location.path();
     };
   });
