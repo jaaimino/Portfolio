@@ -4,11 +4,11 @@ angular.module('jaimino')
   .controller('NavbarCtrl', function ($scope, $location) {
     $scope.menu = [{
       'title': 'Home',
-      'link': '/'
+      'link': '#/'
     },
     {
       'title': 'About',
-      'link': '/about'
+      'link': '#/about'
     }
     ];
 
