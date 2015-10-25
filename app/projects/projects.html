@@ -8,7 +8,7 @@
       <div class="row">
         <div ng-repeat="project in projects" class="col-lg-3 col-md-4 col-xs-6 thumb">
             <a class="thumbnail" href="{{project.link}}">
-                <img class="img-responsive" src="{{project.img}}" alt="">
+                <img class="img-responsive" ng-src="{{project.img}}" alt="">
             </a>
             <h4 class="text-center">{{project.name}}</h4>
         </div>
