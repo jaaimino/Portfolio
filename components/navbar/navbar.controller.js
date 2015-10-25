@@ -9,6 +9,10 @@ angular.module('jaimino')
     {
       'title': 'About',
       'link': '#/about'
+    },
+    {
+      'title': 'Projects',
+      'link': '#/projects'
     }
     ];
 
