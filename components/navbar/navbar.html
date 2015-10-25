@@ -14,6 +14,17 @@
         <li ng-repeat="item in menu" ng-class="{active: isActive(item.link)}">
             <a ng-href="{{item.link}}">{{item.title}}</a>
         </li>
+        <li ng-class="{active: isDropdownActive('#/activities/')}" class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Activities <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li ng-class="{active: isActive('#/activities/organizations')}">
+              <a href="#/activities/organizations">Organizations</a>
+            </li>
+            <li ng-class="{active: isActive('#/activities/competitions')}">
+              <a href="#/activities/competitions">Competitions</a>
+            </li>
+          </ul>
+        </li>
       </ul>
     </div>
   </div>
