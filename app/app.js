@@ -7,7 +7,7 @@ angular.module('jaimino', [
   'ui.router',
   'ui.bootstrap',
   'chart.js',
-  'angulartics', 
+  'angulartics',
   'angulartics.google.analytics'
 ])
   .config(function ($stateProvider, $urlRouterProvider, $locationProvider, $httpProvider) {
