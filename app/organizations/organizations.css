@@ -14,3 +14,23 @@
 #experience {
     margin-top: 100px;
 }
+
+.organization-img{
+    //border: 1px solid white;
+    opacity: 0.85;
+    padding:10px;
+    margin-top:5px;
+    margin-bottom:5px;
+    list-style:none;
+    margin-bottom:25px;
+}
+
+.organization-img:hover{
+    //border: 1px solid black;
+    opacity: 1.0;
+}
+
+.organization-img:active{
+    //border: 1px solid black;
+    opacity: 1.0;
+}

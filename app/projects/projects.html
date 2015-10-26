@@ -1,14 +1,14 @@
 <div ng-include="'components/navbar/navbar.html'"></div>
 <div ng-include="'components/header/header.html'"></div>
 <div class="container">
-  <div id="project-gallery" class="col-md-12">
+  <div id="project-gallery" class="col-lg-12">
       <div class="page-header text-center">
         <h1>My Projects<small></small></h1>
       </div>
       <div class="row">
-        <div ng-repeat="project in projects" class="col-lg-3 col-md-4 col-xs-6 thumb">
-            <a class="thumbnail" href="{{project.link}}">
-                <img class="img-responsive" ng-src="{{project.img}}" alt="">
+        <div ng-repeat="project in projects" class="col-lg-4 col-md-4 col-xs-6 thumb">
+            <a class="" href="{{project.link}}">
+                <img class="img img-responsive project-preview" ng-src="{{project.img}}" alt="">
             </a>
             <h4 class="text-center">{{project.name}}</h4>
         </div>

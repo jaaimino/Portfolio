@@ -12,10 +12,10 @@ angular.module('jaimino')
         this.link = link;
     };
     var projects = [
-        new project("Nope", "#", "assets/img/project_thumbs/gemini_thumb.png"),
-        new project("Test", "#", "assets/img/project_thumbs/gemini_thumb.png"),
-        new project("Test", "#", "assets/img/project_thumbs/gemini_thumb.png"),
-        new project("Test", "#", "assets/img/project_thumbs/gemini_thumb.png")
+        new project("Nope", "/#/", "assets/img/project_thumbs/gemini_thumb.png"),
+        new project("Test", "/#/", "assets/img/project_thumbs/gemini_thumb.png"),
+        new project("Test", "/#/", "assets/img/project_thumbs/gemini_thumb.png"),
+        new project("Test", "/#/", "assets/img/project_thumbs/gemini_thumb.png")
     ];
     var getProjects = function(){
         return projects;
