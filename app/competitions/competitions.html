@@ -7,25 +7,11 @@
       </div>
       <div class="row">
         <div class="col-md-12" style="padding-top:50px;">
-            <div class="event">
-                <h3>Code for Good Delaware <small>JPMorgan Chase & Co.</small></h3>
-                <img class="img img-responsive" src="http://www.udel.edu/udaily/2014/nov/images/codegoodtudentsa.jpg">
-                <h4><small>November 1st 2013</small></h4>
-                <a class="btn btn-sm btn-primary" href="http://www.udel.edu/udaily/2014/nov/code-for-good-112113.html">Article</a>
-                <hr>
-            </div>
-            <div class="event">
-                <h3>Association for Computing Machinery Hackathon <small>UD</small></h3>
-
-                <h4><small>TBA</small></h4>
-                <a class="btn btn-sm btn-default disabled" href="">Article</a>
-                <hr>
-            </div>
-            <div class="event">
-                <h3>Code for Good Delaware <small>JPMorgan Chase & Co.</small></h3>
-                <img class="img img-responsive" src="http://www.udel.edu/udaily/2013/mar/images/CodeforGood1.jpg">
-                <h4><small>March 8th 2013</small></h4>
-                <a class="btn btn-sm btn-primary" href="http://www.udel.edu/udaily/2013/mar/code030813.html">Article</a>
+            <div class="event" ng-repeat="competition in competitions">
+                <h3>{{competition.name}} <small>{{competition.host}}</small></h3>
+                <img ng-if="competition.img" class="img img-responsive" ng-src="{{competition.img}}">
+                <h4><small>{{competition.date}}</small></h4>
+                <a class="btn btn-sm btn-primary" ng-href="{{competition.link}}">Article</a>
                 <hr>
             </div>
         </div>
