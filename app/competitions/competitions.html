@@ -6,7 +6,7 @@
         <h1>Competitions<small></small></h1>
       </div>
       <div class="row">
-        <div class="col-md-12" style="padding-top:50px;">
+        <div class="col-md-offset-2 col-md-8" style="padding-top:50px;">
             <div class="event" ng-repeat="competition in competitions">
                 <h3>{{competition.name}} <small>{{competition.host}}</small></h3>
                 <img ng-if="competition.img" class="img img-responsive" ng-src="{{competition.img}}">

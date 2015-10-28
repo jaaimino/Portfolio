@@ -6,7 +6,7 @@
 
 angular.module('jaimino')
   .factory('Competitions', function () {
-    var project = function(name, host, date, link, img, target){
+    var competition = function(name, host, date, link, img, target){
         this.name = name;
         this.host = host;
         this.date = date;
@@ -15,15 +15,23 @@ angular.module('jaimino')
         this.target = target;
     };
     var competitions = [
-        new project(
+        new competition(
+            "DelHack", 
+            "University of Delaware ACM", 
+            "November 14th 2015", 
+            "http://www.ecl.udel.edu/~acm/hack.html", 
+            "assets/img/delhack.png", 
+            "_blank"
+        ),
+        new competition(
             "Code for Good Delaware", 
             "JPMorgan Chase & Co.", 
             "November 1st 2013", 
-            "https://github.com/jaaimino/financial-advisor-app", 
+            "#", 
             "http://www.udel.edu/udaily/2014/nov/images/codegoodtudentsa.jpg", 
             "_blank"
         ),
-        new project(
+        new competition(
             "Association for Computing Machinery Hackathon", 
             "University of Delaware", 
             "TBA", 
@@ -31,7 +39,7 @@ angular.module('jaimino')
             "", 
             "_blank"
         ),
-        new project(
+        new competition(
             "Code for Good Delaware", 
             "JPMorgan Chase & Co.", 
             "March 8th 2013", 
