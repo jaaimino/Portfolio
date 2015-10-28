@@ -13,10 +13,34 @@ angular.module('jaimino')
         this.target = target;
     };
     var projects = [
-        new project("Financial Advisor App", "https://github.com/jaaimino/financial-advisor-app", "assets/img/project_thumbs/finadvise_thumb.png", "_blank"),
-        new project("Tastimals", "https://jaaimino.github.io/tastimals/", "assets/img/project_thumbs/tastimals_thumb.png", "_blank"),
-        new project("Dogebook", "https://github.com/jaaimino/dogebook", "assets/img/project_thumbs/dogebook_thumb.png", "_blank"),
-        new project("Gemini Simulator", "https://github.com/jaaimino/gemini-simulator", "assets/img/project_thumbs/gemini_thumb.png", "")
+        new project(
+            "Financial Advisor App", 
+            "https://github.com/jaaimino/financial-advisor-app", 
+            "assets/img/project_thumbs/finadvise_thumb.png", "_blank"
+        ),
+        new project(
+            "Tastimals", 
+            "https://jaaimino.github.io/tastimals/", 
+            "assets/img/project_thumbs/tastimals_thumb.png", "_blank"
+        ),
+        new project(
+            "Dogebook", 
+            "https://github.com/jaaimino/dogebook", 
+            "assets/img/project_thumbs/dogebook_thumb.png", 
+            "_blank"
+        ),
+        new project(
+            "Gemini Simulator", 
+            "https://github.com/jaaimino/gemini-simulator", 
+            "assets/img/project_thumbs/gemini_thumb.png", 
+            ""
+        ),
+        new project(
+            "Jaimino.com", 
+            "https://github.com/jaaimino/jaaimino.github.io", 
+            "assets/img/project_thumbs/comingsoon_thumb.png", 
+            ""
+        )
     ];
     var getProjects = function(){
         return projects;
