@@ -8,6 +8,7 @@ angular.module('jaimino', [
   'ui.bootstrap',
   'chart.js',
   'angulartics',
+  'angulartics.google.analytics',
   'firebase'
   //'angulartics.google.analytics'
 ])
