@@ -33,13 +33,19 @@ angular.module('jaimino')
             "Gemini Simulator", 
             "https://github.com/jaaimino/gemini-simulator", 
             "assets/img/project_thumbs/gemini_thumb.png", 
-            ""
+            "_blank"
         ),
         new project(
             "Jaimino.com", 
             "https://github.com/jaaimino/jaaimino.github.io", 
-            "assets/img/project_thumbs/comingsoon_thumb.png", 
-            ""
+            "assets/img/project_thumbs/jaimino_thumb.png", 
+            "_blank"
+        ),
+        new project(
+            "Reddit Downloader", 
+            "https://github.com/jaaimino/reddit-downloader", 
+            "assets/img/project_thumbs/redditd_thumb.png", 
+            "_blank"
         )
     ];
     var getProjects = function(){
