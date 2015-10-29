@@ -28,7 +28,7 @@ angular.module('jaimino')
             "JPMorgan Chase & Co.", 
             "November 1st 2013", 
             "#", 
-            "http://www.udel.edu/udaily/2014/nov/images/codegoodtudentsa.jpg", 
+            "assets/img/codegood_november.jpg", 
             "_blank"
         ),
         new competition(
@@ -44,7 +44,7 @@ angular.module('jaimino')
             "JPMorgan Chase & Co.", 
             "March 8th 2013", 
             "http://www.udel.edu/udaily/2013/mar/code030813.html", 
-            "http://www.udel.edu/udaily/2013/mar/images/CodeforGood1.jpg", 
+            "assets/img/CodeforGood1_march.jpg", 
             "_blank"
         ),
         //new project("Tastimals", "https://jaaimino.github.io/tastimals/", "assets/img/project_thumbs/tastimals_thumb.png", "_blank")
