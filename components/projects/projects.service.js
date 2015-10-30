@@ -20,7 +20,7 @@ angular.module('jaimino')
         ),
         new project(
             "Tastimals", 
-            "https://jaaimino.github.io/tastimals/", 
+            "https://github.com/jaaimino/tastimals", 
             "assets/img/project_thumbs/tastimals_thumb.png", "_blank"
         ),
         new project(
