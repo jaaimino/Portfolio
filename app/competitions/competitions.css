@@ -1,4 +1,7 @@
 .event{
     margin-bottom: 5px;
-    width: 600px;
+}
+
+.event-img{
+	max-width: 600px;
 }

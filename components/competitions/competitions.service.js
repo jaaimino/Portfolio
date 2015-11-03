@@ -32,14 +32,6 @@ angular.module('jaimino')
             "_blank"
         ),
         new competition(
-            "Association for Computing Machinery Hackathon", 
-            "University of Delaware", 
-            "TBA", 
-            "#", 
-            "", 
-            "_blank"
-        ),
-        new competition(
             "Code for Good Delaware", 
             "JPMorgan Chase & Co.", 
             "March 8th 2013", 
