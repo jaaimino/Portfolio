@@ -1,5 +1,5 @@
 #jumbo {
-    margin-top:50px;
+    margin-top:60px;
     background-image: url('../../assets/img/boreal.jpg');
     background-size: cover;
     padding:0px;
@@ -18,7 +18,7 @@
 }
 
 #filter {
-    padding:180px;
+    padding:180px 0px 180px 0px;
     background-color:black;
     opacity:0.2;
 }
