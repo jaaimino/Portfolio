@@ -46,6 +46,12 @@ angular.module('jaimino')
             "https://github.com/jaaimino/reddit-downloader", 
             "assets/img/project_thumbs/redditd_thumb.png", 
             "_blank"
+        ),
+        new project(
+            "JSDungeon", 
+            "https://github.com/jaaimino/jsdungeon", 
+            "assets/img/project_thumbs/jsdungeon_thumb.png", 
+            "_blank"
         )
     ];
     var getProjects = function(){
