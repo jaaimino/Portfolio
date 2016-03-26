@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "dependencies": {},
   "devDependencies": {
-    "grunt": "~0.4.4",
-    "grunt-connect": "^0.2.0"
+    "gulp": "^3.9.1",
+    "gulp-connect": "^3.2.1"
   },
   "engines": {
     "node": ">=0.10.0"
