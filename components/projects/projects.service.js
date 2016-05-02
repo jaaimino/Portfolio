@@ -52,6 +52,12 @@ angular.module('jaimino')
             "https://github.com/jaaimino/jsdungeon", 
             "assets/img/project_thumbs/jsdungeon_thumb.png", 
             "_blank"
+        ),
+        new project(
+            "Raddit", 
+            "https://github.com/jaaimino/raddit", 
+            "assets/img/project_thumbs/raddit_thumb.png", 
+            "_blank"
         )
     ];
     var getProjects = function(){
