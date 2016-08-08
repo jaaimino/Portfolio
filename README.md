@@ -6,4 +6,6 @@ My personal site, built as an angular SPA for easing serving from github pages.
 
 Run `bower install` and `npm install`
 
-Run `grunt` to host a local http dev server
+Run `npm install -g gulp` to install gulp globally
+
+Run `gulp` to host a local http dev server
